@@ -1,0 +1,109 @@
+body{
+
+
+	color:red;
+	font-family:arial,heluetica,sans-serif;
+	background-color:white;
+
+	color:black;
+	font-weight:bold;
+	font-size: 16px;
+
+	
+}
+h1{
+	text-align:center;
+	color:green;
+	}
+p{
+	line-height:1.6em;
+}
+.c1
+{
+	color:maroon;
+	background-color:black;
+	border:red 5px solid;
+	border-left:yellow 5px solid;
+	padding:20px;
+}
+.c2
+{
+	color:black;
+}
+.c3
+{
+	color:white;
+	background-color:#EEE11A;
+	font-family:tahoma;
+	font-style:italic;
+	text-decoration:underline;
+	text-transform:uppercase;
+	letter-spacing:0.2em;
+	word-spacing:1em;}
+.container{
+	width:500px;
+	margin:auto;
+	margin-top:100px;
+}
+.c4
+{
+	border:1px red solid;
+	border-radius:15px;
+	
+}
+.c4 li{
+	padding-bottom:5px;
+	border-bottom:red 5px dotted;
+}
+.c4 ul{
+	list-style-image:url('../images/iim.png');
+}
+		
+
+a{
+	text-decoration:none;
+}
+a:hover
+{
+	color:red;
+}
+a:active{
+	color:green;
+}
+a:visited
+{
+	color:yellow;
+}
+
+.f1{
+	padding:20px;
+}
+.fg{
+	padding-bottom:20px;
+}
+.f1 label{
+	display:block;
+}
+.f1 input[type="text"]{
+	padding:10px;
+	
+}
+.f1 input[type="submit"]
+{
+	background-color:#333;
+	color:white;
+	padding:10px;
+	border:none;
+}
+.button:hover
+{
+	background:red;
+	color:white;
+}
+.block{
+	float:left;
+	width:33.3%;
+	border:3px solid blue;
+	padding-bottom:10px;
+	box-sizing:border-box;
+}
